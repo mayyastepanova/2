@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff5fe4, #feb47b); /* Adjust colors as needed */
+}
+
+header {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid rgba(238, 131, 215, 0.5);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.tile {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    border-radius: 10px;
+    padding: 20px;
+    height: 150px; /* Adjust height as needed */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    
+
+    transition: all 0.2s ease-in-out;
+}
+
+
+.tile:hover{
+    transform: scale(2);
+}
+
+.img1{
+background-image: url(./img1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.img2{
+background-image: url(./img2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.img3{
+    background-image: url(./img3.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    
+.img4{
+    background-image: url(./img4.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .img5{
+        background-image: url(./img5.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        
+        .img6{
+        background-image: url(./img6.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .img7{
+            background-image: url(./img7.jpg);
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+            
+            .img8{
+            background-image: url(./img8.jpg);
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+            .img9{
+                background-image: url(./img9.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    color: white;
+                }
+        
+            .img10{
+                    background-image: url(./img10.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        color: white;
+                    }
+                    
+                    .img11{
+                    background-image: url(./img11.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        color: white;
+                    }
+
+                    .img12{
+                        background-image: url(./img12.jpg);
+                            background-size: cover;
+                            background-position: center;
+                            color: white;
+                        }
+                        
+                        .img13{
+                        background-image: url(./img13.jpg);
+                            background-size: cover;
+                            background-position: center;
+                            color: white;
+                        }
+
+                        .img14{
+                            background-image: url(./img14.jpg);
+                                background-size: cover;
+                                background-position: center;
+                                color: white;
+                            }
+                            
+                            .img15{
+                                background-image: url(./img15.jpg);
+                                    background-size: cover;
+                                    background-position: center;
+                                    color: white;
+                                }
+                                
+                            .img16{
+                                background-image: url(./img16.jpg);
+                                    background-size: cover;
+                                    background-position: center;
+                                    color: white;
+                                }
+                            
+                            .img17{
+                                    background-image: url(./img17.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        color: white;
+                                    }
+                                    
+                             .img18{
+                                    background-image: url(./img18.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        color: white;
+                                    }
+                            
+                            .img19{
+                                        background-image: url(./img19.jpg);
+                                            background-size: cover;
+                                            background-position: center;
+                                            color: white;
+                                        }
+                                        
+                                        .img20{
+                                        background-image: url(./img20.jpg);
+                                            background-size: cover;
+                                            background-position: center;
+                                            color: white;
+                                        }
+
+                                        .img21{
+                                            background-image: url(./img21.jpg);
+                                                background-size: cover;
+                                                background-position: center;
+                                                color: white;
+                                            }
+                            
+
+
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+
+    }
+}
